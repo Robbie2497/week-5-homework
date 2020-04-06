@@ -1,19 +1,6 @@
 var date = new Date();
-// var dateMonth = date.toLocaleString('default', { month: 'long' });
-// console.log(dateMonth);
-// var dateDay = date.getDay();
-// var newDay = dateDay - 2;
-// console.log(dateDay)
-// var dateYear = date.getFullYear();
-// console.log(dateYear);
-// var hours = date.getHours() ; // gives the value in 24 hours format
-// var AmOrPm = hours >= 12 ? 'pm' : 'am';
-// hours = (hours % 12) || 12;
-// var minutes = date.getMinutes() ;
-// var finalTime = "Time  - " + hours + ":" + minutes + " " + AmOrPm; 
-// document.getElementById("currentDay").innerHTML = dateMonth + " " + newDay + " " + dateYear + " " + finalTime;
-// finalTime // final time Time - 22:10
-console.log(date)
+
+$("#currentDay").text(date);
 
 
 
